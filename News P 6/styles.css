@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
 body{
     width: 100%;
-    font-family: Helvetica,Arial, Helvetica, serif;
+    font-family: "Roboto Slab",Helvetica,Arial, Helvetica, serif;
     font-style: normal;
     color: #3f3f42;;
     text-align: left;
@@ -12,6 +14,9 @@ ol {
 li {
     margin: 0%;
     padding: 0%;
+    color:  rgb(63, 63, 66);
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
 }
 
 a{
@@ -34,13 +39,14 @@ nav {
     list-style-type: none;
     min-height: 2.5rem;
     border-bottom: 0.0625rem solid transparent;
-    font-family: ReithSans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: "Roboto Slab",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
     font-style: normal;
     cursor: pointer;
     text-decoration: none;
     box-sizing: inherit;
-    display: block;
+    display: inline-block;
+    position: relative;
 }
 #navBar li:hover {
 border-bottom: white 2px solid;
@@ -49,10 +55,13 @@ border-bottom: white 2px solid;
     text-align:center;
     color:white;
     display: inline-block;
-    padding: 11.5px;
+    padding-bottom: 11.5px;
+    padding-top: 11.5px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-color: #B80000;
     font-size: 1.15rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
     font-style: normal;
     list-style-type: none;
     text-decoration: none;
@@ -61,7 +70,7 @@ border-bottom: white 2px solid;
     margin-block-end: 0px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px
+    padding-inline-start: 0px
 }
 
 .navLinks a{
@@ -69,7 +78,7 @@ border-bottom: white 2px solid;
     color:white;
     background-color: #B80000;
     font-size: 1.15rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
     font-style: normal;
     list-style-type: none;
     text-decoration: none;
@@ -84,17 +93,22 @@ border-bottom: white 2px solid;
 
 ul {
     list-style-type: disc;
-    margin-block-start: 50px;
+    margin-block-start: 20px;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
+    margin-inline-start: 15px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 20px;
+    color:  rgb(63, 63, 66);
+    display: block;
+    width: 80%;
 }
 
 #mainTitle {
     display: block;
     width: 60%;
     background-color:white;
+    font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
+    font-weight:lighter;
     font-size: 2.75rem;
     line-height: 3.625rem;
     margin-left: 50px;
@@ -103,12 +117,12 @@ ul {
 ul.a {
     display: block;
     width: 70%;
-    color:#3F3F42;
+    color:#6E6E73;
     list-style-type: none;
     margin-left: 50px;
     margin-top: 1rem;
     padding-left: 30px;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab—Semi-bold", Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.9375rem;
@@ -124,7 +138,7 @@ time.a{
     padding-top: 1rem;
     padding-bottom: 30px;
     padding-left: 30px;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family:  "Roboto Slab — Semi-bold",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.9375rem;
@@ -149,6 +163,13 @@ time.a{
     width:650px;
     height:400px;
 }
+#image5{
+    margin-top: 0px;
+    size: auto;
+    margin-block-start: 0px;
+    margin-inline-start: 0px;
+    padding-block-start: 0px;
+}
 
 .images {
     border-style: none;
@@ -158,6 +179,7 @@ time.a{
     margin-top: 30px;
 }
 .caption {
+    font-family:  "Roboto Slab — Semi-bold",Helvetica,Arial,sans-serif;
     font-size: 0.875rem;
     width:550px;
     display:block;
@@ -182,42 +204,68 @@ time.a{
     margin-right: 50px;
     padding-right: 30px;
     margin-bottom: 20px;
+    font-family:  "Roboto Slab — Semi-bold",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #3F3F42;
     line-height: 1.5rem;
     box-sizing: inherit;
 }
+p{
+    width: 80%;
+    font-family:"Roboto Slab — Semi-bold",Helvetica,Arial,sans-serif;
+    padding-bottom: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5rem;
+    line-height-step: 1rem;
+}
 
 .linkedNews{
-    color:#222222;
+    color:  rgb(63, 63, 66);
     cursor: pointer;
-    font-weight: 400;
+    font-weight:normal;
+    font-style:normal;
     margin-left: 0px;
-    padding-left: 30px;
-    margin-right: 50px;
+    padding-left: 0px;
+    margin-right: 0px;
+    font-family:  "Roboto Slab — Semi-bold",Helvetica,Arial,sans-serif;
+}
+ul.linkedNews{
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-left:10px;
+    cursor: pointer;
+    font-style:normal;
+    font-weight:normal;
+    margin-right: 0px;
+    color:  rgb(63, 63, 66);
+    text-decoration: underline 1px rgb(63, 63, 66);
+    text-underline-offset: 0.25em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    line-height: 2.5rem;
 }
 
 a.linkedNews:hover{
-color:red;
+    color:#B80000;
+    font-weight: normal;
+    text-decoration: underline 2px #B80000;
+    text-underline-offset: 0.25em;
 }
 h2{
     display: block;
+    width: 80%;
+    background-color:white;
+    font-family: "Roboto Slab — Semi-bold",Arial, Helvetica, sans-serif;
     font-size: 32px;
+    line-height: 3.625rem;
     margin-left: 0px;
     padding-left: 0px;
-    margin-right: 50px;
-    padding-right: 30px;
-    margin-bottom: 30px;
     font-weight: 700;
-    font-style: normal;
-    color: #3F3F42;
-    padding-top: 1.5rem;
-    width: 60%;
-    text-size-adjust: 100%;
-    line-height: 2.6rem;
-    font-family: ReithSans,Helvetica,Arial,sans-serif;
-    box-sizing: inherit;
 }
 
 footer{
@@ -232,22 +280,7 @@ footer{
     font-family: inherit;
     font-weight: inherit;
     color: #3F3F42;
-    padding-top: 1.5rem;
-    width: 50%;
-    border-top:#3F3F42 solid;
+    padding-top: 0px;
+    width: 60%;
 }
 
-.footerList{
-    display: block;
-    width: 70%;
-    color:#3F3F42;
-    list-style-type: circle;
-    margin-left: 80px;
-    margin-top: 1rem;
-    padding-left: 0px;
-    font-family: Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.9375rem;
-    line-height: 1.125rem;
-}
